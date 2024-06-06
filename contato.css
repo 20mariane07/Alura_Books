@@ -1,0 +1,37 @@
+.contato {
+    cor de fundo: var(--branco);
+    preenchimento: 1em;
+}
+
+.contato__título,
+.contato__texto {
+    plano de fundo: var(--azul-degradar);
+    -webkit-background-clip: texto;
+    -webkit-text-fill-color: transparente;
+    clipe de fundo: texto;
+}
+
+.contato__título {
+    tamanho da fonte: 18px;
+    peso da fonte: 500;
+}
+
+.contato__texto {
+    peso da fonte: 300;
+    margem: 1em 0;
+}
+
+.contato__e-mail {
+    preenchimento: 1em;
+    borda: 1px var sólido (--azul);
+    raio da borda: 24px;
+    largura: 90%;
+    cor: var(--azul);
+}
+
+.contato__email::placeholder {
+    família de fontes: var(--fonte-principal);
+    cor: var(--azul);
+    plano de fundo: url("../img/Email.svg") sem repetição;
+    preenchimento à esquerda: 2em;
+}
